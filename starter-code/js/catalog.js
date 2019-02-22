@@ -36,6 +36,9 @@ function handleSubmit(submit) {
 
 // TODO: Add the selected item and quantity to the cart
 function addSelectedItemToCart() {
+  var cart_item = document.getElementById('items');
+  if()
+  console.log(cart_item.value);
   // TODO: suss out the item picked from the select list
   var catalog_item = document.getElementById('items').value;
   // TODO: get the quantity
